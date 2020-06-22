@@ -62,6 +62,11 @@ section h1 {
 	margin-left: 0;
 }
 
+a.homebutton{
+    color: black;
+}
+
+
 .meeting-schedule {
 	margin-bottom: 5%;
 }
@@ -141,6 +146,20 @@ img {
 	margin: 0 auto;
 	text-align: center;
 }
+
+.annoucement {
+	color: red;
+	width: 100%;
+}
+
+.goal {
+	margin-top: 2.5%;
+	margin-bottom: 0;
+}
+
+.mission-statement {
+	width: 100%;
+}
 /* contact section */
 
 #contact {
@@ -148,7 +167,7 @@ img {
 	padding-bottom: 60px;
 	text-align: center;
 }
-.TeacherPic {
+.BoardPic {
 	height: 20%;
 	width: 185px;
 }
@@ -171,6 +190,10 @@ img {
 	font-weight: bold;
 }
 
+.bg-msn {
+	background-color: #71972C;
+}
+
 /* copyright section */
 .copyright {
 	padding-top: 20px;
@@ -185,17 +208,21 @@ img {
 		margin-bottom: 1%;
 		width: 80%;
 	}
+	.map-office {
+		height: 50%;
+		margin-bottom: 5%;
+	}
 	.mainText{
-		margin-top: 5%;
+		margin-top: 2.5%;
 		margin-bottom: 5%;
 		text-align: center;
 		float: right;
-		width: 35%;
+		width: 40%;
 	}
 	#carousel{
 		width: 55%;
 		float: left;
-		margin-top: 5%;
+		margin-top: 6%;
 	}
 }
 
@@ -217,10 +244,10 @@ img {
 @media only screen and ( max-width: 1024px) {
 	#carousel{
 		width: 100%;
-		margin-top: 10%;
+		margin-top: 5%;
 	}
 	.mainText{
-		margin-top: 10%;
+		margin-top: 5%;
 		margin-bottom: 5%;
 		text-align: center;
 		width: 100%;
@@ -228,6 +255,9 @@ img {
 }
 
 @media only screen and ( max-width: 980px) {
+	.main-section {
+		padding: 0;
+	}
 	.mb-0{
 		text-align: center;
 	}
@@ -263,6 +293,10 @@ img {
 	.nav {
 		margin-left: 10px;
 	}
+	.map-office {
+		height: auto;
+		margin-bottom: 5%;
+	}
 
 	.contact{
 		text-align: center;
@@ -280,6 +314,9 @@ img {
 /* media 360 */
 
 @media only screen and ( max-width: 360px) {
+	.main-section {
+		padding: 0;
+	}
 	.mb-0{
 		text-align: center;
 	}
@@ -302,6 +339,10 @@ img {
 	}
 	.contact{
 		width: 100%;
+	}
+	.map-office {
+		height: auto;
+		margin-bottom: 5%;
 	}
 	.social{
 		width: 100%;
