@@ -334,6 +334,10 @@ footer.footer {
   transition: background-color 0.6s ease;
 }
 
+#programs {
+	margin-bottom: 2%;
+}
+
 @media only screen and (min-width: 2560px) {
 	#accordion{
 		margin-top: 1%;
@@ -393,7 +397,7 @@ footer.footer {
 	#carousel{
 		width: 55%;
 		float: left;
-		margin-top: 10%;
+		margin-top: 4.5%;
 		margin-bottom: 3%;
 	}
 	.nav-link{
