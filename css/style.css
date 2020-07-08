@@ -188,6 +188,10 @@ a.homebutton{
 	margin-bottom: 5%;
 }
 
+.meeting-schedule-main {
+	margin-bottom: 5%;
+}
+
 .copyright{
 	align-content: center;
 }
@@ -338,7 +342,7 @@ footer.footer {
 	margin-bottom: 2%;
 }
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (max-width: 1799px) {
 	#accordion{
 		margin-top: 1%;
 		margin-left: 10%;
@@ -363,7 +367,7 @@ footer.footer {
 	#carousel{
 		width: 55%;
 		float: left;
-		margin-top: 3%;
+		margin-top: 9%;
 		margin-bottom: 3%;
 	}
 	.nav-link{
@@ -372,7 +376,7 @@ footer.footer {
 	}
 }
 
-@media only screen and ( max-width: 2560px) {
+@media only screen and ( min-width: 1800px) {
 	#accordion{
 		margin-top: 1%;
 		margin-left: 10%;
@@ -395,9 +399,9 @@ footer.footer {
 		width: 40%;
 	}
 	#carousel{
-		width: 55%;
+		width: 900px;
 		float: left;
-		margin-top: 4.5%;
+		margin-top: 4%;
 		margin-bottom: 3%;
 	}
 	.nav-link{
